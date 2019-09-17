@@ -7,7 +7,7 @@
     <meta name="author" content="">
     <link rel="icon" href="favicon.ico">
 
-    <title>Digital Atlas of Egyptian Archaeology</title>
+    <title>Marissa's Ottawa Map</title>
 
     
     <!-- Bootstrap core CSS -->
@@ -47,8 +47,7 @@
                         <h4 class="modal-title" id="myModalLabel">Marissa's Ottawa Map</h4>
                     </div>
                     <div class="modal-body">
-                        The Digital Atlas of Ancient Egypt is a digital cultural map of archaeological sites in Egypt (ranging from the Predynastic to the Roman period).  Collaboratively produced at Michigan State University over multiple semesters by the students registered in the Archaeology of Ancient Egypt class (ANP 455), the Digital Atlas of Ancient Egypt represents an experiment in applied digital archaeology undergraduate learning.  
-
+                        This is a map of Ottawa.
                     </div>
                     <div class="modal-footer">
                         <label ><input class="dont" type="checkbox" name="dismiss"> Don't show again</label><br />
@@ -142,7 +141,7 @@ $(window).on("resize", function () {
 
             var map = L.map('map', {
 				attributionControl: false
-			}).setView([45.2497462,-76.3621355], 6);
+			}).setView([45.2497462,-76.3621355], 15);
 
             L.tileLayer('https://a.tiles.mapbox.com/v4/{id}/{z}/{x}/{y}.png?access_token={accessToken}', {
 				maxZoom: 18,
